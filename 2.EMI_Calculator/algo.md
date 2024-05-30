@@ -21,11 +21,11 @@
 
 **javascript** ｡🇯‌🇸‌
 
-- Get the three `input tag` using `getElementById` such as `amount`,`interest`,`tenure`
-- Calculate interestValue using `(P*R*T)/100`
-- Calculate total by adding `amount(P) and interestValue`
+- Get the three `input tag` using `getElementById` such as `principal`,`annualInterestRate`,`tenureInYears`
+- Calculate interestValue using `(P*R*(1+R)^n)/((1+R)^n - 1)`
+- `P`Principal `R`monthlyInterestRate `n` numberOfMonths
+- Calculate EMI using above formula
 - Get the `h2` for displaying `EMI Amount` using `getElementById`
 - `onclick` event added in button
 - Calculate `btn` triger `getEmi()` for calculating `EMI`
-- Reset `btn` triger `resetEmi()` for erase input and output in the UI 
- 
+- Reset `btn` triger `resetEmi()` for erase input and output in the UI
