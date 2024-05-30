@@ -1,20 +1,20 @@
 ## Calculator app
 
-**HTML DESIGN**
+**HTML DESIGN** 📄
 
 - create container div inwhich inside calculator will place
 - create form div for calculator design
 - create display div for diplay the value
 - create btnGroup div for all buttons
 
-**CSS DESIGN**
+**CSS DESIGN** 🌈
 
 - style the container div
 - style the form div
 - style the display div
 - style the btngroup div
 
-**javascript**
+**javascript** ｡🇯‌🇸‌
 
 - add onclick event to all btn in btnGroup
 - `+=` used while clicking all button button values are append to display
