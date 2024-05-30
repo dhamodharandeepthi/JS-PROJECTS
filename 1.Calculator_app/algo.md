@@ -1,4 +1,4 @@
-## Calculator app
+## Calculator app 📱
 
 **HTML DESIGN** 📄
 
