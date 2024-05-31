@@ -1,4 +1,4 @@
-## Word Counter App
+## Word Counter App 🔠
 
 **HTML Design** 📄
 
