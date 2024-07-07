@@ -54,4 +54,4 @@
 7. **Remove Bounce Class**:
 
    - `letter.classList.remove("bounce");`
-     - Removes the `bounce` class after the delay.
+     - Removes the `bounce` class after the delay...

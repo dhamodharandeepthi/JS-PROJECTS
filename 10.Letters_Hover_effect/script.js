@@ -1,3 +1,5 @@
+//js code
+
 document.querySelectorAll(".letters>span").forEach((element) => {
   element.addEventListener("mouseover", (event) => {
     bounce(event.target);
