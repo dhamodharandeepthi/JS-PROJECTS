@@ -55,9 +55,6 @@
 9. **Clear Input Field**:
 
    - `inputTag.value = "";`
-   - `}` (close inner if statement)
-   - `}` (close outer if statement)
-   - `});` (close event listener)
 
 10. **Add Event Listener for Tags List**:
 
@@ -68,6 +65,5 @@
     - `if (event.target.classList.contains("delete-button")) {`
 
 12. **Remove Parent Tag Element**:
+
     - `event.target.parentNode.remove();`
-    - `}` (close if statement)
-    - `});` (close event listener)
