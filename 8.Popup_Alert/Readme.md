@@ -2,15 +2,15 @@
 
 ## HTML Structure 🧱
 
-1️⃣. **Container Setup**:
+1️. **Container Setup**:
 
    - `<div class="container">`: Wraps the entire subscription section.
 
-2️⃣. **Heading**:
+2️. **Heading**:
 
    - `<h1 id="heading">Subscribe to my channel</h1>`: Adds a heading with the text.
 
-3️⃣. **Popup Setup**:
+3️. **Popup Setup**:
 
    - `<div class="popup">`: Contains the popup message.
      - `<i class="fa-regular fa-circle-check"></i>`: Includes a success icon.
@@ -18,7 +18,7 @@
      - `<br />`: Adds a line break for spacing.
      - `<button id="closeBtn">Close</button>`: Button to close the popup.
 
-4️⃣. **Subscribe Button**:
+4️. **Subscribe Button**:
 
    - `<button id="showBtn">Subscribe now</button>`: Button to show the popup.
 
@@ -29,14 +29,14 @@
 
 ## Javascript Interactivity 🚀
 
-1️⃣. **Select elements**:
+1️. **Select elements**:
 
    - `let showBtn = document.getElementById("showBtn");`
    - `let closeBtn = document.getElementById("closeBtn");`
    - `let popup = document.querySelector(".popup");`
    - `let heading = document.getElementById("heading");`
 
-2️⃣. **Add click event listener to `showBtn`**:
+2️. **Add click event listener to `showBtn`**:
 
    - `showBtn.addEventListener("click", () => {`
      - Show the popup: `popup.style.display = "block";`
@@ -44,7 +44,7 @@
      - Hide the heading: `heading.style.display = "none";`
    - `});`
 
-3️⃣. **Add click event listener to `closeBtn`**:
+3️. **Add click event listener to `closeBtn`**:
    - `closeBtn.addEventListener("click", () => {`
      - Hide the popup: `popup.style.display = "none";`
      - Hide the subscribe button: `showBtn.style.display = "none";`
