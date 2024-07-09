@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+body {
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+h1 {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  text-align: center;
+}
+.generator {
+  background-color: #f5f5f5;
+  width: 400px;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.password {
+  display: grid;
+  grid-template-columns: auto min-content;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.password input {
+  padding: 7px 10px;
+  background-color: #ddd;
+  border: 0;
+  color: #333;
+}
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 10px;
+}
+.password button {
+  border-radius: 0;
+}
+.range {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+.range span {
+  background-color: #ddd;
+  padding: 10px;
+  margin-left: 20px;
+  min-width: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.options label {
+  display: block;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.generate {
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+  padding: 10px;
+}
