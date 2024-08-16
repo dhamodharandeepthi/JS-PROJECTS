@@ -1,5 +1,5 @@
 let x = setInterval(() => {
-  let futureDate = new Date("May 27 2024 12:00:00").getTime();
+  let futureDate = new Date("Dec 27 2024 12:00:00").getTime();
   console.log(futureDate);
   let currDate = new Date();
   console.log(currDate.getTime());
