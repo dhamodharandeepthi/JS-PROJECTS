@@ -1,5 +1,9 @@
 # Star Rating App ⭐
 
+App Link - https://star-rating-app-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/f227ccfd-46c0-4da0-ae3d-0cf36f1e957d
+
 ## HTML Structure 🧱
 
 - Container Setup:

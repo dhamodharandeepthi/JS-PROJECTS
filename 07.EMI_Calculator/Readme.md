@@ -1,5 +1,9 @@
 # EMI Calculator app 💰
 
+App Link - https://emi-calculator-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/ebb85246-b4ed-4e77-8268-c98efdb10a38
+
 ## HTML Structure 🧱
 
 1. **Container Setup**:

@@ -1,5 +1,9 @@
 # BMI Calculator App 🚻
- 
+
+App Link - https://bmi-calculator-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/b79609e9-5385-4aed-91a4-bf2eb8adabe2
+
 ## HTML Structure 🧱
 
 1. **Container Setup**

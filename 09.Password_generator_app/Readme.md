@@ -1,5 +1,9 @@
 # Password Generator App 🔒
 
+App Link - https://password-generator-app-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/8f256922-8733-47d6-8b06-3185fcba6ebf
+
 ## HTML Structure 🧱
 
 1. **Container Setup**

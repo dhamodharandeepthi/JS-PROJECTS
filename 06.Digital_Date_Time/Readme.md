@@ -1,5 +1,9 @@
 # Digital Date and Time 📅⏱️
 
+App Link - https://digital-date-time-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/2f67a1f8-194b-4821-b0e1-76b2f4e43fd7
+
 ## HTML Structure 🧱
 
 1. **Container Setup**:
@@ -89,4 +93,3 @@
 
 6. Repeat:
    - Wait for the next interval and repeat the above steps to update the date and time displayed on the webpage.
-

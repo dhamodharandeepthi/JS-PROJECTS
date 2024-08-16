@@ -1,5 +1,9 @@
 # Letters Hover Effect 🌊
 
+App Link - https://letter-hover-effect-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/f497f7a7-4284-4d56-90ee-326f2b2a94a4
+
 ## HTML Structure 🧱
 
 1. **Container Setup**:

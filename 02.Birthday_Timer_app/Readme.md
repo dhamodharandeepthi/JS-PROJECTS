@@ -1,5 +1,9 @@
 # Birthday Countdown App 🥂✨🧁
 
+App Link - https://birthday-timer-app-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/12c34b8f-e03b-4d04-b024-bda0c6c446be
+
 ## HTML Structure 🧱
 
 1. **Container Setup**:

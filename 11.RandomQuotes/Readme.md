@@ -1,5 +1,10 @@
 # Random Quotes Generator App 🎲
 
+App Link - https://random-quotes-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/b2d24ac0-9cfa-46f3-ae34-1cc24ce56452
+
+
 ## HTML Structure 🧱
 
 1. Create a container:

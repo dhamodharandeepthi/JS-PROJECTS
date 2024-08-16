@@ -1,5 +1,9 @@
 # Tags Generator App 🏷️
 
+App Link - https://tag-generating-app-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/cbbcc9a3-ac06-4004-91ac-f489ac55f329
+
 ## HTML Structure 🧱
 
 - `<div class="container">`: Container for the entire application.

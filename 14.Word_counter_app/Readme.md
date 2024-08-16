@@ -1,5 +1,9 @@
 # Word Counter App 🔠
 
+App Link - https://word-counter-app-using-js.netlify.app/
+
+https://github.com/user-attachments/assets/0cc4a03a-5848-46ab-a051-abdf6ee486b8
+
 ## HTML Structure 🧱
 
 - `<div class="container">`: Container for the entire interface.
