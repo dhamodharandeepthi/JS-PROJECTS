@@ -16,11 +16,10 @@ This is a simple Birthday Countdown web application that calculates the time rem
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Customization](#customization)
-- [License](#license)
 
 ## Demo
 
-You can view a live demo of the Birthday Countdown [here](#https://github.com/user-attachments/assets/12c34b8f-e03b-4d04-b024-bda0c6c446be).
+You can view a live demo of the Birthday Countdown [https://github.com/user-attachments/assets/12c34b8f-e03b-4d04-b024-bda0c6c446be](#).
 
 ## Features
 
