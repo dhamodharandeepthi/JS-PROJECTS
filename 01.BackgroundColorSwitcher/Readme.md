@@ -4,45 +4,44 @@ App Link - https://background-color-switcher-using-js.netlify.app/
 
 https://github.com/user-attachments/assets/6d7bf12d-e0ea-4926-971c-0708fc610bf4
 
-## HTML Structure 🧱
+# Background Color Switcher
 
-1. **Container Setup**:
+This is a simple web application that allows users to change the background color of the page by selecting a color from a list of options. The project is implemented using HTML, CSS, and JavaScript.
 
-   - `<div class="container">`: This element wraps the entire content.
+## Features
 
-2. **Heading**:
+- Users can switch the background color of the page by clicking on one of the color options.
+- The available colors are Orange, Green, Blue, and Pink.
+- The text color automatically changes to white to ensure readability against the selected background color.
 
-   - `<h1>BG Color Switcher</h1>`: This line adds a heading with the text "BG Color Switcher."
+## Project Structure
 
-3. **Instruction Paragraph**:
+- `index.html`: The main HTML file that contains the structure of the webpage.
+- `style.css`: The CSS file that styles the webpage, including the layout, fonts, and color options.
+- `script.js`: The JavaScript file that handles the color switching functionality.
 
-   - `<p>Please select a color for background</p>`: This line adds a paragraph with instructions.
+## How It Works
 
-4. **Color Switches List**:
+1. The HTML file defines a list of color options inside an unordered list (`<ul>`).
+2. Each list item (`<li>`) represents a color, and when clicked, it triggers a JavaScript function.
+3. The JavaScript functions change the `background-color` and `color` properties of the `<body>` element to the selected color.
 
-   - `<ul id="switches">`: This element creates an unordered list to hold the color switches.
-     - `<li id="orange"></li>`: List item with id "orange" for the orange color switch.
-     - `<li id="green"></li>`: List item with id "green" for the green color switch.
-     - `<li id="blue"></li>`: List item with id "blue" for the blue color switch.
-     - `<li id="pink"></li>`: List item with id "pink" for the pink color switch.
+## How to Run
 
-## CSS Styling 🌈
+1. Clone or download this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Click on any of the color options to change the background color of the page.
 
-- style the `container div`
-- style the `h1 tag`
-- style the `p tag`
-- style the `ul and li`
-  -Note: Don't add background color and text color for body
+## Customization
 
-## Javascript Interactivity 🚀
+- You can easily add more colors by adding new list items (`<li>`) in the `index.html` file and defining corresponding color values in the `script.js` file.
+- The styles can be adjusted in the `style.css` file to change the appearance of the color options or the layout.
 
-1. **Event Handlers Setup**:
+## License
 
-   - Assign functions to `onclick` events for elements with IDs `orange`, `green`, `blue`, and `pink`.
+This project is open source and available under the [MIT License](LICENSE).
 
-2. **Function Definitions**:
+## Author
 
-   - Define `switchToOrange()`, `switchToGreen()`, `switchToBlue()`, and `switchToPink()` functions.
-   - Each function:
-     - Sets `backgroundColor` of the `<body>` to respective color (`orange`, `green`, `blue`, `pink`).
-     - Sets `color` of the text to `white`.
+- **Dhamodharan R**
+
