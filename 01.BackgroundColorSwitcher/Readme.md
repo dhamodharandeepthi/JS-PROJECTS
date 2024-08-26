@@ -1,6 +1,6 @@
 # Background Color Switcher 🚥
 
-This is a simple web application that allows users to change the background color of the page by selecting a color from a list of options. The project is implemented using HTML, CSS, and JavaScript.
+A simple web application that allows users to switch the background color of the page by clicking on color buttons. The application uses HTML, CSS, and JavaScript to create an interactive user experience.
 
 ## App link
 
@@ -12,37 +12,47 @@ https://github.com/user-attachments/assets/6d7bf12d-e0ea-4926-971c-0708fc610bf4
 
 ## Features
 
-- Users can switch the background color of the page by clicking on one of the color options.
-- The available colors are Orange, Green, Blue, and Pink.
-- The text color automatically changes to white to ensure readability against the selected background color.
+- **Color Switcher**: Change the background color of the page by clicking on color options.
+- **Interactive UI**: Use color buttons to dynamically update the page's background color.
+- **Responsive Design**: The application is designed to be responsive and user-friendly.
 
-## Project Structure
+## Technologies Used
 
-- `index.html`: The main HTML file that contains the structure of the webpage.
-- `style.css`: The CSS file that styles the webpage, including the layout, fonts, and color options.
-- `script.js`: The JavaScript file that handles the color switching functionality.
+- **HTML**: Provides the structure of the web application.
+- **CSS**: Styles the application, including the layout and color buttons.
+- **JavaScript**: Handles the background color switching functionality.
+
+## Files Included
+
+- `index.html`: The HTML file that sets up the structure of the app.
+- `style.css`: The CSS file that styles the app.
+- `script.js`: The JavaScript file that implements the color-switching logic.
+
+## How to Use
+
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open `index.html`**: Open the `index.html` file in your web browser.
+3. **Select a Color**: Click on one of the color buttons to change the background color of the page.
 
 ## How It Works
 
-1. The HTML file defines a list of color options inside an unordered list (`<ul>`).
-2. Each list item (`<li>`) represents a color, and when clicked, it triggers a JavaScript function.
-3. The JavaScript functions change the `background-color` and `color` properties of the `<body>` element to the selected color.
+- **HTML**: Creates the structure of the color switcher, including color buttons.
+- **CSS**: Styles the color buttons and positions them for easy interaction.
+- **JavaScript**: Listens for clicks on color buttons and changes the background color of the page accordingly.
 
-## How to Run
+## Example
 
-1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Click on any of the color options to change the background color of the page.
+Click the color buttons to see the background color change instantly.
 
 ## Customization
 
-- You can easily add more colors by adding new list items (`<li>`) in the `index.html` file and defining corresponding color values in the `script.js` file.
-- The styles can be adjusted in the `style.css` file to change the appearance of the color options or the layout.
+- **Update Colors**: Modify the `script.js` file to add or change the colors available for selection.
+- **Change Styles**: Edit `style.css` to adjust the appearance of the color buttons or layout.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+## Acknowledgements
 
-- **Dhamodharan R**
+- This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.

@@ -1,6 +1,6 @@
-# Calculator app 📱
+# Calculator App 📱
 
-A simple web-based calculator application that performs basic arithmetic operations.
+A simple and functional calculator app designed with HTML, CSS, and JavaScript. This app performs basic arithmetic operations including addition, subtraction, multiplication, and division. It also includes a clear button to reset the display.
 
 ## App link
 
@@ -12,49 +12,44 @@ https://github.com/user-attachments/assets/d1383923-f9b7-419a-9081-bb2e93daa0bf
 
 ## Features
 
-- Addition, subtraction, multiplication, and division operations.
-- User-friendly interface with clickable buttons.
-- Responsive design that adjusts to different screen sizes.
+- **Basic Arithmetic Operations**: Supports addition, subtraction, multiplication, and division.
+- **Clear Button**: Allows users to clear the display.
+- **Evaluate Expression**: Calculates the result of the entered expression when "=" is clicked.
 
 ## Technologies Used
 
-- **HTML**: For structuring the application.
-- **CSS**: For styling the application.
-- **JavaScript**: For adding interactivity and handling arithmetic calculations.
+- **HTML**: Provides the structure of the calculator including buttons and display.
+- **CSS**: Styles the calculator, buttons, and display.
+- **JavaScript**: Handles the functionality of the calculator, including button actions and expression evaluation.
 
-## Getting Started
+## Files Included
 
-### Prerequisites
+- `index.html`: Contains the HTML structure and button functionality of the calculator.
+- `style.css`: Contains the CSS styles for the calculator app.
 
-To run this application, you need a modern web browser such as Google Chrome, Firefox, Safari, or Edge.
+## How to Use
 
-### Installation
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open `index.html`**: Open the `index.html` file in your web browser.
+3. **Perform Calculations**:
+   - Click the number buttons (0-9) to enter numbers.
+   - Click the arithmetic operation buttons (+, -, \*, /) to perform operations.
+   - Click "=" to evaluate the expression and display the result.
+   - Click "C" to clear the display.
 
-1. Clone the repository to your local machine:
+## Example
 
-   ```bash
-   git clone https://github.com/your-username/calculator-app.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd calculator-app
-   ```
-
-3. Open the `index.html` file in your web browser:
-   ```bash
-   open index.html
-   ```
-
-## Usage
-
-- Enter numbers using the calculator buttons.
-- Perform operations by clicking the corresponding arithmetic operation buttons (`+`, `-`, `*`, `/`).
-- Use the `C` button to clear the display.
-- Click the `=` button to evaluate the expression.
+The result will display the evaluated expression or the result of the calculation.
 
 ## Customization
 
-- **Styling**: Modify the `style.css` file to customize the look and feel of the calculator.
-- **Functionality**: Add more features or modify existing ones by editing the inline JavaScript in the `index.html` file.
+- **Change Styling**: Modify `style.css` to adjust the appearance of the calculator and buttons.
+- **Update Functionality**: Modify the HTML and JavaScript code if you want to add more features or change the functionality.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- The design and functionality are inspired by classic calculator interfaces and adapted for web use.

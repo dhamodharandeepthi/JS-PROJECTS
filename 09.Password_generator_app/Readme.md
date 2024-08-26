@@ -51,6 +51,10 @@ https://github.com/user-attachments/assets/8f256922-8733-47d6-8b06-3185fcba6ebf
 
 When you select different options and adjust the length, the password is generated and displayed in real-time. You can copy the password to your clipboard by clicking the "copy" button.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses the [Poppins](https://fonts.google.com/specimen/Poppins) font from Google Fonts for a clean and modern look.

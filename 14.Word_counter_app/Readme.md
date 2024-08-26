@@ -45,6 +45,10 @@ https://github.com/user-attachments/assets/0cc4a03a-5848-46ab-a051-abdf6ee486b8
 
 Type and count your characters easily with this simple application.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.

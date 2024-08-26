@@ -45,6 +45,10 @@ https://github.com/user-attachments/assets/de9d3d10-9be2-4022-acfe-257b83227b63
 
 When the "Subscribe now" button is clicked, the popup appears. Clicking the "Close" button hides the popup and changes the heading text to a thank you message.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses [Font Awesome](https://fontawesome.com/) for the success icon and [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for a modern look.

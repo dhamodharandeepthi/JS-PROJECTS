@@ -1,6 +1,6 @@
 # BMI Calculator App 🚻
 
-This is a simple BMI (Body Mass Index) Calculator web application that allows users to calculate their BMI based on their height in centimeters and weight in kilograms.
+A simple web application to calculate Body Mass Index (BMI) based on user input for height and weight. The app provides a straightforward interface to input height and weight, and displays the calculated BMI value.
 
 ## App link
 
@@ -10,50 +10,46 @@ https://bmi-calculator-using-js.netlify.app/
 
 https://github.com/user-attachments/assets/b79609e9-5385-4aed-91a4-bf2eb8adabe2
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Files](#files)
-- [Technologies Used](#technologies-used)
-
-## Overview
-
-The BMI Calculator App is a lightweight web application that calculates the Body Mass Index of a user based on the height and weight provided. The result is displayed on the same page after the user clicks the "Calculate" button.
-
 ## Features
 
-- Responsive user interface using HTML and CSS.
-- Input fields for height (in centimeters) and weight (in kilograms).
-- Displays the calculated BMI with a smiley icon.
-
-## Installation
-
-To run the BMI Calculator App locally, follow these steps:
-
-1. Clone the repository or download the source code.
-
-2. Navigate to the project directory
-
-3. Open index.html in your preferred web browser.
-
-## Usage
-
-- Open the application in your web browser.
-- Enter your height in the "Enter your Height" input box.
-- Enter your weight in the "Enter your Weight" input box.
-- Click the "Calculate" button to see your BMI result displayed on the page.
-
-## Files
-
-- index.html - The main HTML file containing the structure of the application.
-- style.css - The CSS file for styling the application.
-- script.js - The JavaScript file for calculating the BMI.
+- **BMI Calculation**: Calculates BMI based on user input for height in centimeters and weight in kilograms.
+- **Responsive Design**: The application is designed to fit the viewport and be user-friendly.
+- **Real-Time Calculation**: Displays the BMI result immediately after clicking the calculate button.
 
 ## Technologies Used
 
-- HTML5: For creating the structure of the app.
-- CSS3: For styling the app.
-- JavaScript: For adding the BMI calculation functionality
+- **HTML**: Provides the structure and layout of the application.
+- **CSS**: Styles the application, including the form and result display.
+- **JavaScript**: Handles the BMI calculation logic and updates the result dynamically.
+
+## Files Included
+
+- `index.html`: Contains the HTML structure of the app.
+- `style.css`: Contains the CSS styles for the app.
+- `script.js`: Contains the JavaScript code to perform the BMI calculation.
+
+## How to Use
+
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open `index.html`**: Open the `index.html` file in your web browser.
+3. **Enter Your Details**:
+   - Input your height in centimeters in the "Enter your Height" field.
+   - Input your weight in kilograms in the "Enter your Weight" field.
+4. **Calculate BMI**: Click the "Calculate" button to display your BMI.
+
+## Example
+
+The result will display the calculated BMI along with a smiling emoji.
+
+## Customization
+
+- **Change Styling**: Modify `style.css` to adjust the appearance of the form and result.
+- **Update Calculation Logic**: Modify `script.js` if you want to change the BMI formula or add additional features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for a modern look and feel.

@@ -45,6 +45,10 @@ https://github.com/user-attachments/assets/f227ccfd-46c0-4da0-ae3d-0cf36f1e957d
 
 Click on the stars to rate and see the rating displayed.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.

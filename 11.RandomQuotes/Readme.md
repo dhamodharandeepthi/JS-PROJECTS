@@ -45,6 +45,10 @@ https://github.com/user-attachments/assets/b2d24ac0-9cfa-46f3-ae34-1cc24ce56452
 
 Click the "Generate Quote" button to get a random quote displayed on the page.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.

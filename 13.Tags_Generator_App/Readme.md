@@ -44,6 +44,10 @@ https://github.com/user-attachments/assets/cbbcc9a3-ac06-4004-91ac-f489ac55f329
 
 Add and manage your tags easily with this simple app.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 - This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.

@@ -1,6 +1,6 @@
 # Digital Date Time 📅⏱️
 
-A simple web application that displays the current date and time in a digital format. The time is updated every second, showing the time in 12-hour format with AM/PM.
+A simple web application that displays the current date and time in a digital format. The application updates the date and time every second.
 
 ## App link
 
@@ -12,48 +12,43 @@ https://github.com/user-attachments/assets/2f67a1f8-194b-4821-b0e1-76b2f4e43fd7
 
 ## Features
 
-- **Current Date**: Displays the current date in `DD/MM/YYYY` format.
-- **Digital Clock**: Displays the current time in `HH:MM:SS AM/PM` format, updating every second.
-- **Responsive Design**: The application is responsive and looks good on various screen sizes.
-- **Stylish UI**: The design is simple yet elegant, using modern fonts and subtle color schemes.
+- **Date Display**: Shows the current date in the format `DD/MM/YYYY`.
+- **Time Display**: Shows the current time in `12-hour` format with AM/PM indication.
+- **Real-Time Update**: Date and time are updated every second.
 
 ## Technologies Used
 
-- **HTML**: For structuring the page.
-- **CSS**: For styling the page and ensuring it looks good on all devices.
-- **JavaScript**: For dynamically updating the time every second.
+- **HTML**: Defines the structure of the date and time display.
+- **CSS**: Styles the date and time display components.
+- **JavaScript**: Handles real-time updates of the date and time.
 
-## Getting Started
+## Files Included
 
-### Prerequisites
+- `index.html`: Contains the HTML structure for displaying date and time.
+- `style.css`: Contains the CSS styles for the application.
+- `script.js`: Contains the JavaScript code for updating date and time.
 
-A modern web browser is required to view the application.
+## How to Use
 
-### Installation
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open `index.html`**: Open the `index.html` file in your web browser.
+3. **View Date and Time**:
+   - The current date will be displayed at the top.
+   - The current time will be displayed below the date and will update every second.
 
-1. Clone the repository to your local machine:
+## Example
 
-   ```bash
-   git clone https://github.com/your-username/digital-date-time.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd digital-date-time
-   ```
-
-3. Open the `index.html` file in your web browser:
-   ```bash
-   open index.html
-   ```
-
-## Usage
-
-1. **Open the Application**: Simply open the `index.html` file in any modern web browser.
-2. **View Date and Time**: The current date will be displayed at the top, and the digital clock will show the current time, updating every second.
+The application will display the current date and time, updating in real-time.
 
 ## Customization
 
-- **Styling**: You can modify the `style.css` file to change the appearance of the clock and date display.
-- **Functionality**: You can add more features or modify the existing ones by editing the `script.js` file.
+- **Change Styling**: Modify `style.css` to adjust the appearance of the date and time displays.
+- **Update Functionality**: Modify the HTML and JavaScript code to change how date and time are displayed or to add new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- The design and functionality are inspired by digital clocks and date displays, adapted for web use.

@@ -44,3 +44,7 @@ https://github.com/user-attachments/assets/f497f7a7-4284-4d56-90ee-326f2b2a94a4
 ## Example
 
 When you hover over the letter "H" in "HELLO WORLD", the letter will bounce and turn red.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
