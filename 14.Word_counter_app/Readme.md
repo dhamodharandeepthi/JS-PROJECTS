@@ -1,68 +1,50 @@
-# Word Counter App 🔠
+# Typing Word Counter 🔠
 
-App Link - https://word-counter-app-using-js.netlify.app/
+A simple web application that counts the number of characters typed in a text area. It provides buttons to count the characters and to reset the input field.
+
+## App link
+
+https://word-counter-app-using-js.netlify.app/
+
+## Demo
 
 https://github.com/user-attachments/assets/0cc4a03a-5848-46ab-a051-abdf6ee486b8
 
-## HTML Structure 🧱
+## Features
 
-- `<div class="container">`: Container for the entire interface.
-  - `<h1>Type A Word in the Box</h1>`: Heading prompting the user to type.
-  - `<textarea id="textarea" cols="50" rows="4"></textarea>`: Text area for inputting text.
-  - `<div>`: Container for buttons.
-    - `<button class="btn" id="countBtn">Get Words Count</button>`: Button to count words.
-    - `<button class="btn" id="resetBtn">Reset</button>`: Button to reset the text area.
-  - `<h2 id="output"></h2>`: Placeholder for displaying word count or messages.
+- **Count Characters**: Click the "Get Words Count" button to display the number of characters typed in the text area.
+- **Reset**: Click the "Reset" button to clear the text area and the displayed character count.
+- **Responsive Design**: The application is centered and adapts to different screen sizes.
 
-## CSS Styling 🌈
+## Files Included
 
-- style the `container div`
-- style the `h1 tag`
-- style the `textarea`
-- style the `button`
-- style the `h2 tag`
+- `index.html`: The HTML file that structures the app.
+- `style.css`: The CSS file for styling the app.
+- `script.js`: The JavaScript file that handles character counting and resetting functionality.
 
-## Javascript Interactivity 🚀
+## How to Use
 
-1. Initialization:
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open `index.html`**: Open the `index.html` file in your web browser.
+3. **Type in the Text Area**: Enter text into the text area.
+4. **Count Characters**: Click the "Get Words Count" button to see the number of characters in the text area.
+5. **Reset**: Click the "Reset" button to clear the text area and the character count.
 
-   - Define a function wordCounts(words) that updates an HTML element with id "output" to display the length of input words.
-   - Define a function resetWords() to clear the content of "output" element and reset the value of a textarea with id "textarea".
-   - Set an onclick event listener on a button with id "countBtn" to call wordCounts() when clicked.
-   - Set an onclick event listener on a button with id "resetBtn" to call resetWords() when clicked.
+## How It Works
 
-2. User Interaction:
+- **HTML**: Defines the structure of the word counter app, including a text area, buttons, and an output area.
+- **CSS**: Styles the app with a clean, modern design using the Poppins font.
+- **JavaScript**: Manages the functionality for counting characters and resetting the text area. The count is displayed when the "Get Words Count" button is clicked, and the text area and count are cleared when the "Reset" button is clicked.
 
-   a. User enters text into a textarea with id "textarea".
-   b. Clicks the "Count Words" button (countBtn).
+## Customization
 
-3. Event Handling:
+- **Update Styles**: Modify `style.css` to change the appearance of the text area, buttons, and output.
+- **Change Functionality**: Adjust `script.js` to alter how character counting and resetting are handled.
 
-   - onclick of countBtn:
+## Example
 
-     - Get the value of textarea (trimmed of leading and trailing whitespace).
-     - Call wordCounts() with the length of the trimmed textarea value as the argument.
-     - Update the HTML content of an element with id "output" to display "Words Length is : <length>".
+Type and count your characters easily with this simple application.
 
-   - onclick of resetBtn:
-     - Call resetWords().
-     - Clears the HTML content of the element with id "output".
-     - Resets the value of the textarea with id "textarea" to an empty string.
+## Acknowledgements
 
-4. Example Execution:
-
-   Input:
-
-   - User enters "Hello World" into textarea.
-   - Clicks "Count Words" button.
-
-   Execution:
-
-   - Trimmed textarea value length = 11.
-   - Update "output" element to display "Words Length is : 11 😊".
-
-   Reset:
-
-   - Clicks "Reset" button.
-   - Clears "output" element.
-   - Resets textarea value to an empty string.
+- This app uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts for modern typography.
