@@ -2,19 +2,19 @@
 
 This is a simple web application that allows users to change the background color of the page by selecting a color from a list of options. The project is implemented using HTML, CSS, and JavaScript.
 
-## Features
-
-- Users can switch the background color of the page by clicking on one of the color options.
-- The available colors are Orange, Green, Blue, and Pink.
-- The text color automatically changes to white to ensure readability against the selected background color.
-
-## App link 
+## App link
 
 https://background-color-switcher-using-js.netlify.app/
 
 ## Demo
 
 https://github.com/user-attachments/assets/6d7bf12d-e0ea-4926-971c-0708fc610bf4
+
+## Features
+
+- Users can switch the background color of the page by clicking on one of the color options.
+- The available colors are Orange, Green, Blue, and Pink.
+- The text color automatically changes to white to ensure readability against the selected background color.
 
 ## Project Structure
 
@@ -46,4 +46,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Author
 
 - **Dhamodharan R**
-

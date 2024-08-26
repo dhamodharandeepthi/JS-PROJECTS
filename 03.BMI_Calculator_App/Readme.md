@@ -1,98 +1,59 @@
 # BMI Calculator App 🚻
 
-App Link - https://bmi-calculator-using-js.netlify.app/
+This is a simple BMI (Body Mass Index) Calculator web application that allows users to calculate their BMI based on their height in centimeters and weight in kilograms.
+
+## App link
+
+https://bmi-calculator-using-js.netlify.app/
+
+## Demo
 
 https://github.com/user-attachments/assets/b79609e9-5385-4aed-91a4-bf2eb8adabe2
 
-## HTML Structure 🧱
+## Table of Contents
 
-1. **Container Setup**
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Files](#files)
+- [Technologies Used](#technologies-used)
 
-   - `<div class="container">`: Wrapper for the entire BMI Calculator section.
+## Overview
 
-2. **Form Container**
+The BMI Calculator App is a lightweight web application that calculates the Body Mass Index of a user based on the height and weight provided. The result is displayed on the same page after the user clicks the "Calculate" button.
 
-   - `<div class="form-container">`: Container for the form elements.
+## Features
 
-3. **Heading**
+- Responsive user interface using HTML and CSS.
+- Input fields for height (in centimeters) and weight (in kilograms).
+- Displays the calculated BMI with a smiley icon.
 
-   - `<h1 class="heading">BMI Calculator</h1>`: Adds a heading with the text "BMI Calculator."
+## Installation
 
-4. **Height Input Field**
+To run the BMI Calculator App locally, follow these steps:
 
-   - `<input type="text" name="cm" id="cm" placeholder="Enter your Height" />`: Text input for height with a placeholder.
+1. Clone the repository or download the source code.
 
-5. **Line Break**
+2. Navigate to the project directory
 
-   - `<br />`: Adds a line break for spacing.
+3. Open index.html in your preferred web browser.
 
-6. **Weight Input Field**
+## Usage
 
-   - `<input type="text" name="weight" id="kg" placeholder="Enter your Weight" />`: Text input for weight with a placeholder.
+- Open the application in your web browser.
+- Enter your height in the "Enter your Height" input box.
+- Enter your weight in the "Enter your Weight" input box.
+- Click the "Calculate" button to see your BMI result displayed on the page.
 
-7. **Line Break**
+## Files
 
-   - `<br />`: Adds a line break for spacing.
+- index.html - The main HTML file containing the structure of the application.
+- style.css - The CSS file for styling the application.
+- script.js - The JavaScript file for calculating the BMI.
 
-8. **Submit Button**
+## Technologies Used
 
-   - `<input type="submit" value="Calculate" id="submit" onclick="getBmi()" />`: Submit button with an onclick event to calculate BMI.
-
-9. **Result Display**
-
-   - `<div id="result">`: Placeholder for displaying the calculated BMI.
-     - `<!-- Your BMI is 24 😊 -->`: Comment indicating where the result will be shown.
-
-10. **Close Container**
-
-    - `</div>`: Closes the form container.
-    - `</div>`: Closes the main container.
-
-## CSS Styling 🌈
-
-- style the `container div`.
-- style the `Form-container div`.
-- style the `heading`.
-- style the `Form-container input`
-- style the result
-
-## Javascript Interactivity 🚀
-
-1. User Input:
-
-   - The user enters values for height (cm) and weight (kg) into input fields.
-
-2. Event Listener:
-
-   - The function `getBmi` is triggered when the user clicks the submit button (`submit`).
-
-3. Inside `getBmi` function:
-
-   - Get the value of height in centimeters (cm) from the input field with id 'cm'.
-
-     - cm = +document.getElementById('cm').value; // Convert input value to number.
-
-   - Get the value of weight in kilograms (kg) from the input field with id 'kg'.
-
-     - kg = +document.getElementById('kg').value; // Convert input value to number.
-
-   - Initialize variables:
-
-     - bmi; // This will hold the calculated BMI value.
-     - newCm = +(cm / 100); // Convert cm to meters (divide by 100).
-
-   - Calculate BMI using the formula: bmi = kg / (newCm \* newCm);
-
-     - newCm \* newCm calculates the square of height in meters.
-     - bmi = kg / (newCm \* newCm);
-
-   - Round BMI to one decimal place:
-
-     - bmi = bmi.toFixed(1); // toFixed() method converts number to string with specified decimal places.
-
-   - Update the HTML content of an element with id 'result':
-     - document.getElementById('result').innerHTML = 'Your BMI is ' + bmi + "😊";
-
-4. Output:
-
-   - The BMI calculation result is displayed in the HTML element with id 'result' in the format: "Your BMI is [value] 😊".
+- HTML5: For creating the structure of the app.
+- CSS3: For styling the app.
+- JavaScript: For adding the BMI calculation functionality

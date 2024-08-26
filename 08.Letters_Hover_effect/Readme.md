@@ -1,61 +1,46 @@
 # Letters Hover Effect 🌊
 
-App Link - https://letter-hover-effect-using-js.netlify.app/
+This is a simple web application that displays the word "HELLO WORLD" with a hover effect on each letter. When you hover over a letter, it performs a bounce animation, and the letter's color changes.
+
+## App link
+
+https://letter-hover-effect-using-js.netlify.app/
+
+## Demo
 
 https://github.com/user-attachments/assets/f497f7a7-4284-4d56-90ee-326f2b2a94a4
 
-## HTML Structure 🧱
+## Features
 
-1. **Container Setup**:
+- **Hover Animation**: Each letter in the word "HELLO WORLD" has a bounce effect when hovered over.
+- **Color Change**: The letter changes color when hovered over.
+- **Smooth Animation**: The bounce animation is smooth and resets after each hover.
 
-   - `<h1 class="letters">`: Defines a heading with the class "letters".
+## How It Works
 
-2. **Text Span Elements**:
+- The application is built using HTML, CSS, and JavaScript.
+- The bounce effect is controlled by CSS keyframe animations.
+- JavaScript is used to add the bounce class to each letter when hovered over, triggering the animation.
 
-   - `<span>H</span>` to `<span>D</span>`: Each `<span>` element wraps an individual letter of the text "HELLO WORLD".
+## Files Included
 
-3. **Spaces**:
+- `index.html`: The main HTML file that contains the structure of the word "HELLO WORLD".
+- `style.css`: The CSS file for styling the letters and the hover animation.
+- `script.js`: The JavaScript file that handles the hover effect logic.
 
-   - `<span> </span>`: Adds a space between "HELLO" and "WORLD".
+## How to Use
 
-## CSS Styling 🌈
+1. **Clone or Download**: Clone this repository or download the ZIP file and extract it.
+2. **Open index.html**: Open the `index.html` file in your browser.
+3. **Hover Over Letters**: Hover your mouse over the letters in the word "HELLO WORLD" to see the bounce effect in action.
 
-- style h1 tag,span tag
-- create bounce animation using `@keyframes`.
+## Customization
 
-## Javascript Interactivity 🚀
+- **Change Text**: You can change the text by modifying the `<span>` elements inside the `<h1>` tag in `index.html`.
+- **Adjust Animation**: The bounce animation and color change can be customized in the `style.css` file.
+  - Modify the `@keyframes bounce` section to change the animation effect.
+  - Update the `.letters span:hover` section to change the hover color.
 
-1. **Query Selector All**:
+## Example
 
-   - `document.querySelectorAll(".letters>span").forEach((element) => {`
-     - Selects all `<span>` elements inside elements with class `letters`.
-
-2. **Event Listener**:
-
-   - `element.addEventListener("mouseover", (event) => {`
-     - Listens for mouseover events on each selected `<span>`.
-
-3. **Bounce Function**:
-
-   - `function bounce(letter) {`
-     - Defines a function `bounce` that adds and removes a CSS class to create a bouncing effect.
-
-4. **Check Bounce Class**:
-
-   - `if (!letter.classList.contains("bounce")) {`
-     - Checks if the element does not already have the `bounce` class.
-
-5. **Add Bounce Class**:
-
-   - `letter.classList.add("bounce");`
-     - Adds the `bounce` class to initiate the bounce effect.
-
-6. **Timeout**:
-
-   - `setTimeout(function () {`
-     - Delays for 1000 milliseconds (1 second) before removing the `bounce` class.
-
-7. **Remove Bounce Class**:
-
-   - `letter.classList.remove("bounce");`
-     - Removes the `bounce` class after the delay...
+When you hover over the letter "H" in "HELLO WORLD", the letter will bounce and turn red.

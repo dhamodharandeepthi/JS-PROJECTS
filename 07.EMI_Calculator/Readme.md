@@ -1,81 +1,57 @@
 # EMI Calculator app 💰
 
-App Link - https://emi-calculator-using-js.netlify.app/
+This is a simple EMI (Equated Monthly Installment) Calculator built with HTML, CSS, and JavaScript. The calculator allows users to input the loan amount, annual interest rate, and loan tenure in years to calculate the EMI amount.
+
+## App link
+
+https://emi-calculator-using-js.netlify.app/
+
+## Demo
 
 https://github.com/user-attachments/assets/ebb85246-b4ed-4e77-8268-c98efdb10a38
 
-## HTML Structure 🧱
+## Features
 
-1. **Container Setup**:
+- **Loan Amount**: Input field for the principal loan amount.
+- **Interest Rate**: Input field for the annual interest rate.
+- **Tenure**: Input field for the loan tenure in years.
+- **Calculate EMI**: Button to calculate the EMI based on the provided inputs.
+- **Reset**: Button to reset the input fields and EMI result.
 
-   - `<div class="container">`: Main container for the EMI calculator.
+## How to Use
 
-2. **Form Container**:
+1. **Enter Loan Amount**: Input the principal loan amount in the "Loan Amount" field.
+2. **Enter Interest Rate**: Input the annual interest rate (in percentage) in the "Interest Rate" field.
+3. **Enter Tenure**: Input the loan tenure in years in the "Tenure in years" field.
+4. **Calculate EMI**: Click the "Calculate" button to compute the EMI. The result will be displayed below the button.
+5. **Reset**: Click the "Reset" button to clear all input fields and the displayed EMI.
 
-   - `<div class="form-container">`: Container for the EMI calculator form.
+## Files Included
 
-3. **Heading**:
+- `index.html`: The main HTML file containing the structure of the EMI Calculator.
+- `style.css`: The CSS file for styling the calculator.
+- `script.js`: The JavaScript file that handles the EMI calculation logic.
 
-   - `<h1>EMI Calculator</h1>`: Main heading for the EMI calculator.
+## Formula Used
 
-4. **Horizontal Line**:
+The EMI is calculated using the formula:
 
-   - `<hr />`: Horizontal line for visual separation.
+\[
+EMI = \frac{P \times r \times (1 + r)^n}{(1 + r)^n - 1}
+\]
 
-5. **Form Groups**:
+Where:
 
-   - Each `<div class="form-group">` contains:
-     - `<label>`: Label for each input field.
-     - `<input type="number" id="...">`: Input field for loan amount, interest rate, and tenure.
+- \( P \) is the principal loan amount.
+- \( r \) is the monthly interest rate (annual interest rate divided by 12 and converted to a decimal).
+- \( n \) is the loan tenure in months.
 
-6. **Calculate and Reset Buttons**:
+## Example
 
-   - `<button type="button" onclick="getEmi()">Calculate</button>`: Button to calculate EMI.
-   - `<button type="reset" onclick="resetEmi()">Reset</button>`: Button to reset form inputs.
+For a loan amount of ₹1,00,000 at an annual interest rate of 10% for a tenure of 5 years, the EMI would be calculated as follows:
 
-7. **EMI Result**:
-   - `<h2 id="emi"></h2>`: Heading for displaying calculated EMI result.
+- **Loan Amount**: ₹1,00,000
+- **Interest Rate**: 10% p.a
+- **Tenure**: 5 years
 
-## CSS Styling 🌈
-
-- style the `container div`
-- styel the `form-container div`
-- style the `h1`
-- style the `form-group div`
-- style the `label` and `input`
-- style the `button` and `h2`
-
-## Javascript Interactivity 🚀
-
-1. Get Inputs:
-
-   - Get the principal amount from the HTML input element with id "amount".
-   - Get the annual interest rate from the HTML input element with id "rate".
-   - Get the tenure in years from the HTML input element with id "tenure".
-
-2. Convert Annual Interest Rate to Monthly:
-
-   - Calculate monthlyInterestRate = annualInterestRate / (12 \* 100).
-
-3. Convert Tenure in Years to Number of Monthly Payments:
-
-   - Calculate numberOfMonths = tenureInYears \* 12.
-
-4. Calculate EMI (Equated Monthly Installment):
-
-   - emi = (principal _ monthlyInterestRate _ Math.pow(1 + monthlyInterestRate, numberOfMonths)) /
-     (Math.pow(1 + monthlyInterestRate, numberOfMonths) - 1).
-
-5. Display the Result:
-
-   - Set the innerHTML of the HTML element with id "emi" to display the calculated EMI in the format "EMI IS RS: emiValue/-", rounded to 2 decimal places using toFixed(2).
-
-6. Reset Inputs:
-
-   - Set the value of the HTML input element with id "amount" to an empty string ("").
-   - Set the value of the HTML input element with id "rate" to an empty string ("").
-   - Set the value of the HTML input element with id "tenure" to an empty string ("").
-
-7. Reset Display:
-
-   - Set the innerHTML of the HTML element with id "emi" to an empty string ("").
+Click "Calculate" to get the EMI.

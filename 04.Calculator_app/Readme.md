@@ -1,56 +1,60 @@
 # Calculator app 📱
 
-App Link -https://calculator-app-using-javascript.netlify.app/
+A simple web-based calculator application that performs basic arithmetic operations.
+
+## App link
+
+https://calculator-app-using-javascript.netlify.app/
+
+## Demo
 
 https://github.com/user-attachments/assets/d1383923-f9b7-419a-9081-bb2e93daa0bf
 
-**HTML DESIGN** 📄
+## Features
 
-## HTML Structure for Calculator Form
+- Addition, subtraction, multiplication, and division operations.
+- User-friendly interface with clickable buttons.
+- Responsive design that adjusts to different screen sizes.
 
-### Container Setup
+## Technologies Used
 
-- `<div class="container">`: Acts as the main wrapper for the calculator.
+- **HTML**: For structuring the application.
+- **CSS**: For styling the application.
+- **JavaScript**: For adding interactivity and handling arithmetic calculations.
 
-### Form Setup
+## Getting Started
 
-- `<form id="cal-form" name="calculater">`: Defines a form with an ID and a name for scripting purposes.
+### Prerequisites
 
-### Display Section
+To run this application, you need a modern web browser such as Google Chrome, Firefox, Safari, or Edge.
 
-- `<div class="display">`: Container for the calculator display.
-  - `<input type="text" name="display" readonly />`: Text input field for displaying calculator input/output, set to read-only.
+### Installation
 
-### Button Group
+1. Clone the repository to your local machine:
 
-- `<div class="button-group">`: Container for calculator buttons.
+   ```bash
+   git clone https://github.com/your-username/calculator-app.git
+   ```
 
-#### Number and Operator Buttons
+2. Navigate to the project directory:
 
-- Number Buttons:
-  - `<input type="button" value="7" onclick="calculater.display.value +='7'" />`: Button for number 7, appends '7' to the display.
-  - Similar setup for buttons 8, 9, 4, 5, 6, 1, 2, 3, 0.
-- Arithmetic Operator Buttons:
-  - `<input type="button" value="+" class="arthmatic-btn" onclick="calculater.display.value +='+'" />`: Button for addition, appends '+' to the display.
-  - Similar setup for '-', '\*', '/'.
+   ```bash
+   cd calculator-app
+   ```
 
-#### Clear and Equals Buttons
+3. Open the `index.html` file in your web browser:
+   ```bash
+   open index.html
+   ```
 
-- Clear Button:
-  - `<input type="button" value="C" class="arthmatic-btn" onclick="calculater.display.value =''" />`: Clears the display when clicked.
-- Equals Button:
-  - `<input type="button" value="=" class="arthmatic-btn" onclick="calculater.display.value = eval(calculater.display.value)" />`: Evaluates the expression in the display using JavaScript `eval()` function and displays the result.
+## Usage
 
-**CSS DESIGN** 🌈
+- Enter numbers using the calculator buttons.
+- Perform operations by clicking the corresponding arithmetic operation buttons (`+`, `-`, `*`, `/`).
+- Use the `C` button to clear the display.
+- Click the `=` button to evaluate the expression.
 
-- style the container div
-- style the form div
-- style the display div
-- style the btngroup div
+## Customization
 
-**javascript** ｡🇯‌🇸‌
-
-- add onclick event to all btn in btnGroup
-- `+=` used while clicking all button button values are append to display
-- `=''` while clicking `C` btn it will empty the whatever in display
-- `eval()`is called while clicking `=` to perform arthmatic operation
+- **Styling**: Modify the `style.css` file to customize the look and feel of the calculator.
+- **Functionality**: Add more features or modify existing ones by editing the inline JavaScript in the `index.html` file.
