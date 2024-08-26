@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/8f256922-8733-47d6-8b06-3185fcba6ebf
 
 ## Example
 
-![Example Screenshot](example.png)
+![example.png](example.png)
 
 When you select different options and adjust the length, the password is generated and displayed in real-time. You can copy the password to your clipboard by clicking the "copy" button.
 
